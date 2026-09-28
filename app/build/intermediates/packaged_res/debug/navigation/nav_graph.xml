@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tobicodes.mute.ui.home.HomeFragment"
+        android:label="Home">
+        <action
+            android:id="@+id/action_nav_home_to_readerFragment"
+            app:destination="@id/readerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.tobicodes.mute.ui.library.LibraryFragment"
+        android:label="Library">
+        <action
+            android:id="@+id/action_nav_library_to_readerFragment"
+            app:destination="@id/readerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_bookmarks"
+        android:name="com.tobicodes.mute.ui.bookmarks.BookmarksFragment"
+        android:label="Bookmarks">
+        <action
+            android:id="@+id/action_nav_bookmarks_to_readerFragment"
+            app:destination="@id/readerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.tobicodes.mute.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/readerFragment"
+        android:name="com.tobicodes.mute.ui.reader.ReaderFragment"
+        android:label="Reader">
+        <argument
+            android:name="documentId"
+            app:argType="string" />
+        <argument
+            android:name="startPage"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_zoom_out"
+        android:icon="@drawable/ic_zoom_out"
+        android:title="Zoom Out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_zoom_in"
+        android:icon="@drawable/ic_zoom_in"
+        android:title="Zoom In"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_voice_engine"
+        android:title="Voice Engine"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_document_info"
+        android:title="Document Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reading_settings"
+        android:title="Reading Settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bookmark"
+        android:title="Bookmark"
+        android:icon="@drawable/ic_bookmark"
+        app:showAsAction="always" />
+</menu>

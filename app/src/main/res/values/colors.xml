@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blueprint Premium Dark Palette -->
+    <color name="background">#0B0B0F</color>
+    <color name="surface">#13131A</color>
+    <color name="surface_elevated">#191922</color>
+    <color name="surface_variant">#2A2A35</color>
+    
+    <color name="text_primary">#F5F5F7</color>
+    <color name="text_secondary">#9A9AA5</color>
+    
+    <color name="accent_primary">#8B5CF6</color>
+    <color name="accent_secondary">#3B82F6</color>
+    
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    
+    <!-- Material 3 mappings -->
+    <color name="md_theme_primary">#8B5CF6</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#4C1D95</color>
+    <color name="md_theme_onPrimaryContainer">#F5F5F7</color>
+    <color name="md_theme_surface">#13131A</color>
+    <color name="md_theme_onSurface">#F5F5F7</color>
+    <color name="md_theme_surfaceVariant">#191922</color>
+    <color name="md_theme_onSurfaceVariant">#9A9AA5</color>
+    <color name="mono_bg">#0A0A0B</color>
+    <color name="mono_surface">#151517</color>
+    <color name="mono_surface2">#1C1C1F</color>
+    <color name="mono_border">#26262A</color>
+    <color name="mono_text">#ECECEF</color>
+    <color name="mono_text2">#9A9AA2</color>
+    <color name="mono_muted">#6E6E76</color>
+    <color name="mono_track">#26262A</color>
+    <color name="mono_fill">#8A8A92</color>
+    <color name="mono_btn_bg">#ECECEF</color>
+    <color name="mono_btn_fg">#101012</color>
+</resources>

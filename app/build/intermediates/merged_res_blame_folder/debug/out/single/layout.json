@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/fragment_bookmarks.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/fragment_bookmarks.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/item_bookmark.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/item_bookmark.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/fragment_settings.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/fragment_reader.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/fragment_reader.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/fragment_home.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/item_document.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/item_document.xml"
+    },
+    {
+        "merged": "com.tobicodes.mute.app-mergeDebugResources-57:/layout/fragment_library.xml",
+        "source": "com.tobicodes.mute.app-main-60:/layout/fragment_library.xml"
+    }
+]

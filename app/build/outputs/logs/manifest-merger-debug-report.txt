@@ -1,0 +1,455 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.databinding:viewbinding:8.2.0] /home/tobi/.gradle/caches/transforms-3/381f5a69047874e672c26fb4b5c9585d/transformed/viewbinding-8.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/tobi/.gradle/caches/transforms-3/9a1b0c63205b8fe3201cc2393afbbbda/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/029fb389666d1cdb77b23732cb28133b/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/tobi/.gradle/caches/transforms-3/2c57838dbba1833e1cd4d7f3cc4c58df/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/ad305414d91a15658956be74602311b9/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] /home/tobi/.gradle/caches/transforms-3/df74f55a4a0da7ede058300306aeac67/transformed/navigation-fragment-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/2808b3cc61c839ed8f07bba2f22d0079/transformed/navigation-fragment-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/bbf139a241452d13ee96ad402ad1f490/transformed/navigation-ui-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.6] /home/tobi/.gradle/caches/transforms-3/ada19b70f88ee8fb41bee48b28138abd/transformed/navigation-ui-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] /home/tobi/.gradle/caches/transforms-3/d187c4270b4c74ab76d7b51d17f143eb/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/tobi/.gradle/caches/transforms-3/a3298aa151051964d2017114b12685b9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil:2.5.0] /home/tobi/.gradle/caches/transforms-3/e9355abe0309ccdc49463736a13ea9bc/transformed/coil-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/tobi/.gradle/caches/transforms-3/303e7027e4246e5b0b732f951ab975cf/transformed/coil-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/tobi/.gradle/caches/transforms-3/dd67907427be021ec77b28c0d7334d24/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/tobi/.gradle/caches/transforms-3/8677ce290bece986c8f15c1028d2119b/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/tobi/.gradle/caches/transforms-3/b1ab1a6d0c9f7ce4114f45befa442946/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/tobi/.gradle/caches/transforms-3/2d41b238a42ae09ee5c3f60347384547/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.6.2] /home/tobi/.gradle/caches/transforms-3/9179d8bf00bb9cbb113cd10f8853991d/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/tobi/.gradle/caches/transforms-3/502468aa30a77221de76bb3593cef90e/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] /home/tobi/.gradle/caches/transforms-3/a046b74e91688675239f361249c189e7/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/tobi/.gradle/caches/transforms-3/fb03de5c17c1d2a3df220a6e5a232f8c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.media:media:1.7.0] /home/tobi/.gradle/caches/transforms-3/cb8aba9348de9ebc75c866b03be5c791/transformed/media-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/tobi/.gradle/caches/transforms-3/690b7ff969745aa389e0c9dc55f6aa33/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/tobi/.gradle/caches/transforms-3/039a1ca9d57f3915b7590cfe78434753/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tobi/.gradle/caches/transforms-3/f153253e880d3aa2d88ccf058f41c807/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/tobi/.gradle/caches/transforms-3/893ac4c11edeb39211e94d37946538b6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tobi/.gradle/caches/transforms-3/a940e68afbd291f6a1aba55c6d588b6a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tobi/.gradle/caches/transforms-3/0fcd4d848a7d5234620daf9fdb4033c7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tobi/.gradle/caches/transforms-3/4b5b41a68eaa3583c89a66bf894229ff/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/tobi/.gradle/caches/transforms-3/0be01338d3443ca3f0a521f1af2065c7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tobi/.gradle/caches/transforms-3/da28adddf0c043c57c432ea305e3fc67/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/tobi/.gradle/caches/transforms-3/7cd940a5b7a2cb389d53b47ed5b15d3b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/tobi/.gradle/caches/transforms-3/ec95c2390f2b33151cd1b2c23112263d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/tobi/.gradle/caches/transforms-3/f72e5d60b62e22bca49b8d88c537b11e/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/tobi/.gradle/caches/transforms-3/0e485fb788144d6635e406a03a865470/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/tobi/.gradle/caches/transforms-3/86d9127b8d83aae1ed368432d885c785/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/tobi/.gradle/caches/transforms-3/718e40c5a13291abc6b9ddecf443a69d/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/tobi/.gradle/caches/transforms-3/66bc403d44cd699fb0a330bb124381de/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/tobi/.gradle/caches/transforms-3/190bb01cc333631f9c6f167dfa1d08f5/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/tobi/.gradle/caches/transforms-3/a27c3769f1351b18c136edca4066c15f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/ffa174208efd40a880fdc90bbcc75611/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/tobi/.gradle/caches/transforms-3/2a4f0602fde56ed9c9c256e44d4699dd/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/1dd20be9b063874710c801a0ca376ea6/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/923e6225236e03fae2c2dbd33bcd200a/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/de748bdb34aad45da7be5cbea7ea2e53/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/tobi/.gradle/caches/transforms-3/11111b378982b491367e442cd8979668/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/tobi/.gradle/caches/transforms-3/bcfe9002458b5b375320cb077fc1791e/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/tobi/.gradle/caches/transforms-3/1d2f706e87b1a982cdee6ed44b2faa26/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/tobi/.gradle/caches/transforms-3/3f658df50de9879d4d1f626e4ff3fec4/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/tobi/.gradle/caches/transforms-3/bb95d612b39e3e3b34d14f56d47def77/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/tobi/.gradle/caches/transforms-3/c79008f010bca65d6271552190cb0ac8/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/tobi/.gradle/caches/transforms-3/77f7afe0002b2e23666e0aef2e38d9a4/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/tobi/.gradle/caches/transforms-3/9fbb3a40286c1973681c074dbe591469/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tobi/.gradle/caches/transforms-3/e7f5ff16c0d460485c28474109849c40/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tobi/.gradle/caches/transforms-3/09bce5f42824588619e63d13c96e4cee/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/tobi/.gradle/caches/transforms-3/01b3e6317dabbfa5648c2efa8759f7b8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tobi/.gradle/caches/transforms-3/ebd0c69232a8b9d91974dc60815b4e2f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tobi/.gradle/caches/transforms-3/90f3532180ccd2cca5c7202131affeee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tobi/.gradle/caches/transforms-3/5b4d589165a8b6981740f3bfbbb2406f/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/tobi/.gradle/caches/transforms-3/0920199fa84d3bbeb5dad39c9f4fed32/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tobi/.gradle/caches/transforms-3/481b1e80b364fc2c4027ee70a91bbd92/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tobi/.gradle/caches/transforms-3/97e9fe5bb9825bceef1951ea165fdd19/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/tobi/.gradle/caches/transforms-3/aa8ecbfff32ec6095b3e096a14bb4053/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.tom-roush:pdfbox-android:2.0.27.0] /home/tobi/.gradle/caches/transforms-3/c9e7a4bc4032c6783b803a584f994802/transformed/pdfbox-android-2.0.27.0/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:4:5-5:38
+MERGED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:12:5-80
+MERGED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:12:5-80
+	android:maxSdkVersion
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:5:9-35
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:4:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:8:5-92
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:8:22-89
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:9:22-65
+application
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:11:5-44:19
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:11:5-44:19
+MERGED from [com.google.android.material:material:1.11.0] /home/tobi/.gradle/caches/transforms-3/d187c4270b4c74ab76d7b51d17f143eb/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /home/tobi/.gradle/caches/transforms-3/d187c4270b4c74ab76d7b51d17f143eb/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/tobi/.gradle/caches/transforms-3/a3298aa151051964d2017114b12685b9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/tobi/.gradle/caches/transforms-3/a3298aa151051964d2017114b12685b9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tobi/.gradle/caches/transforms-3/90f3532180ccd2cca5c7202131affeee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tobi/.gradle/caches/transforms-3/90f3532180ccd2cca5c7202131affeee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:15:9-29
+	android:icon
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:16:9-42
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.tobicodes.mute.ui.MainActivity
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:19:9-27:20
+	android:exported
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:21:13-36
+	android:theme
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:22:13-46
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:20:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:25:27-74
+service#com.tobicodes.mute.core.tts.VoiceService
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:29:9-36:19
+	android:exported
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:31:13-37
+	android:foregroundServiceType
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:30:13-50
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:33:13-35:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:34:25-74
+receiver#androidx.media.session.MediaButtonReceiver
+ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:38:9-43:20
+	android:exported
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml:38:19-76
+uses-sdk
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.0] /home/tobi/.gradle/caches/transforms-3/381f5a69047874e672c26fb4b5c9585d/transformed/viewbinding-8.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.0] /home/tobi/.gradle/caches/transforms-3/381f5a69047874e672c26fb4b5c9585d/transformed/viewbinding-8.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/tobi/.gradle/caches/transforms-3/9a1b0c63205b8fe3201cc2393afbbbda/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /home/tobi/.gradle/caches/transforms-3/9a1b0c63205b8fe3201cc2393afbbbda/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/029fb389666d1cdb77b23732cb28133b/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/029fb389666d1cdb77b23732cb28133b/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/tobi/.gradle/caches/transforms-3/2c57838dbba1833e1cd4d7f3cc4c58df/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /home/tobi/.gradle/caches/transforms-3/2c57838dbba1833e1cd4d7f3cc4c58df/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/ad305414d91a15658956be74602311b9/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/ad305414d91a15658956be74602311b9/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] /home/tobi/.gradle/caches/transforms-3/df74f55a4a0da7ede058300306aeac67/transformed/navigation-fragment-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.6] /home/tobi/.gradle/caches/transforms-3/df74f55a4a0da7ede058300306aeac67/transformed/navigation-fragment-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/2808b3cc61c839ed8f07bba2f22d0079/transformed/navigation-fragment-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/2808b3cc61c839ed8f07bba2f22d0079/transformed/navigation-fragment-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/bbf139a241452d13ee96ad402ad1f490/transformed/navigation-ui-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.6] /home/tobi/.gradle/caches/transforms-3/bbf139a241452d13ee96ad402ad1f490/transformed/navigation-ui-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] /home/tobi/.gradle/caches/transforms-3/ada19b70f88ee8fb41bee48b28138abd/transformed/navigation-ui-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.6] /home/tobi/.gradle/caches/transforms-3/ada19b70f88ee8fb41bee48b28138abd/transformed/navigation-ui-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/tobi/.gradle/caches/transforms-3/d187c4270b4c74ab76d7b51d17f143eb/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/tobi/.gradle/caches/transforms-3/d187c4270b4c74ab76d7b51d17f143eb/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/tobi/.gradle/caches/transforms-3/a3298aa151051964d2017114b12685b9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/tobi/.gradle/caches/transforms-3/a3298aa151051964d2017114b12685b9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:2.5.0] /home/tobi/.gradle/caches/transforms-3/e9355abe0309ccdc49463736a13ea9bc/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /home/tobi/.gradle/caches/transforms-3/e9355abe0309ccdc49463736a13ea9bc/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/tobi/.gradle/caches/transforms-3/303e7027e4246e5b0b732f951ab975cf/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /home/tobi/.gradle/caches/transforms-3/303e7027e4246e5b0b732f951ab975cf/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/tobi/.gradle/caches/transforms-3/dd67907427be021ec77b28c0d7334d24/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/tobi/.gradle/caches/transforms-3/dd67907427be021ec77b28c0d7334d24/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/tobi/.gradle/caches/transforms-3/8677ce290bece986c8f15c1028d2119b/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/tobi/.gradle/caches/transforms-3/8677ce290bece986c8f15c1028d2119b/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/tobi/.gradle/caches/transforms-3/b1ab1a6d0c9f7ce4114f45befa442946/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /home/tobi/.gradle/caches/transforms-3/b1ab1a6d0c9f7ce4114f45befa442946/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/tobi/.gradle/caches/transforms-3/2d41b238a42ae09ee5c3f60347384547/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /home/tobi/.gradle/caches/transforms-3/2d41b238a42ae09ee5c3f60347384547/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/tobi/.gradle/caches/transforms-3/9179d8bf00bb9cbb113cd10f8853991d/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/tobi/.gradle/caches/transforms-3/9179d8bf00bb9cbb113cd10f8853991d/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/tobi/.gradle/caches/transforms-3/502468aa30a77221de76bb3593cef90e/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/tobi/.gradle/caches/transforms-3/502468aa30a77221de76bb3593cef90e/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/tobi/.gradle/caches/transforms-3/a046b74e91688675239f361249c189e7/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/tobi/.gradle/caches/transforms-3/a046b74e91688675239f361249c189e7/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/tobi/.gradle/caches/transforms-3/fb03de5c17c1d2a3df220a6e5a232f8c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/tobi/.gradle/caches/transforms-3/fb03de5c17c1d2a3df220a6e5a232f8c/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] /home/tobi/.gradle/caches/transforms-3/cb8aba9348de9ebc75c866b03be5c791/transformed/media-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] /home/tobi/.gradle/caches/transforms-3/cb8aba9348de9ebc75c866b03be5c791/transformed/media-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/tobi/.gradle/caches/transforms-3/690b7ff969745aa389e0c9dc55f6aa33/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/tobi/.gradle/caches/transforms-3/690b7ff969745aa389e0c9dc55f6aa33/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/tobi/.gradle/caches/transforms-3/039a1ca9d57f3915b7590cfe78434753/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/tobi/.gradle/caches/transforms-3/039a1ca9d57f3915b7590cfe78434753/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tobi/.gradle/caches/transforms-3/f153253e880d3aa2d88ccf058f41c807/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tobi/.gradle/caches/transforms-3/f153253e880d3aa2d88ccf058f41c807/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/tobi/.gradle/caches/transforms-3/893ac4c11edeb39211e94d37946538b6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/tobi/.gradle/caches/transforms-3/893ac4c11edeb39211e94d37946538b6/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tobi/.gradle/caches/transforms-3/a940e68afbd291f6a1aba55c6d588b6a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tobi/.gradle/caches/transforms-3/a940e68afbd291f6a1aba55c6d588b6a/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tobi/.gradle/caches/transforms-3/0fcd4d848a7d5234620daf9fdb4033c7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tobi/.gradle/caches/transforms-3/0fcd4d848a7d5234620daf9fdb4033c7/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tobi/.gradle/caches/transforms-3/4b5b41a68eaa3583c89a66bf894229ff/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tobi/.gradle/caches/transforms-3/4b5b41a68eaa3583c89a66bf894229ff/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tobi/.gradle/caches/transforms-3/0be01338d3443ca3f0a521f1af2065c7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tobi/.gradle/caches/transforms-3/0be01338d3443ca3f0a521f1af2065c7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tobi/.gradle/caches/transforms-3/da28adddf0c043c57c432ea305e3fc67/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tobi/.gradle/caches/transforms-3/da28adddf0c043c57c432ea305e3fc67/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/tobi/.gradle/caches/transforms-3/7cd940a5b7a2cb389d53b47ed5b15d3b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/tobi/.gradle/caches/transforms-3/7cd940a5b7a2cb389d53b47ed5b15d3b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/tobi/.gradle/caches/transforms-3/ec95c2390f2b33151cd1b2c23112263d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/tobi/.gradle/caches/transforms-3/ec95c2390f2b33151cd1b2c23112263d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/tobi/.gradle/caches/transforms-3/f72e5d60b62e22bca49b8d88c537b11e/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/tobi/.gradle/caches/transforms-3/f72e5d60b62e22bca49b8d88c537b11e/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/tobi/.gradle/caches/transforms-3/0e485fb788144d6635e406a03a865470/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/tobi/.gradle/caches/transforms-3/0e485fb788144d6635e406a03a865470/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/tobi/.gradle/caches/transforms-3/86d9127b8d83aae1ed368432d885c785/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/tobi/.gradle/caches/transforms-3/86d9127b8d83aae1ed368432d885c785/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/tobi/.gradle/caches/transforms-3/718e40c5a13291abc6b9ddecf443a69d/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/tobi/.gradle/caches/transforms-3/718e40c5a13291abc6b9ddecf443a69d/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/tobi/.gradle/caches/transforms-3/66bc403d44cd699fb0a330bb124381de/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/tobi/.gradle/caches/transforms-3/66bc403d44cd699fb0a330bb124381de/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/tobi/.gradle/caches/transforms-3/190bb01cc333631f9c6f167dfa1d08f5/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/tobi/.gradle/caches/transforms-3/190bb01cc333631f9c6f167dfa1d08f5/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/tobi/.gradle/caches/transforms-3/a27c3769f1351b18c136edca4066c15f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/tobi/.gradle/caches/transforms-3/a27c3769f1351b18c136edca4066c15f/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/ffa174208efd40a880fdc90bbcc75611/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/ffa174208efd40a880fdc90bbcc75611/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/tobi/.gradle/caches/transforms-3/2a4f0602fde56ed9c9c256e44d4699dd/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/tobi/.gradle/caches/transforms-3/2a4f0602fde56ed9c9c256e44d4699dd/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/1dd20be9b063874710c801a0ca376ea6/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/1dd20be9b063874710c801a0ca376ea6/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/923e6225236e03fae2c2dbd33bcd200a/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/923e6225236e03fae2c2dbd33bcd200a/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/de748bdb34aad45da7be5cbea7ea2e53/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/tobi/.gradle/caches/transforms-3/de748bdb34aad45da7be5cbea7ea2e53/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/tobi/.gradle/caches/transforms-3/11111b378982b491367e442cd8979668/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/tobi/.gradle/caches/transforms-3/11111b378982b491367e442cd8979668/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/tobi/.gradle/caches/transforms-3/bcfe9002458b5b375320cb077fc1791e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/tobi/.gradle/caches/transforms-3/bcfe9002458b5b375320cb077fc1791e/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/tobi/.gradle/caches/transforms-3/1d2f706e87b1a982cdee6ed44b2faa26/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/tobi/.gradle/caches/transforms-3/1d2f706e87b1a982cdee6ed44b2faa26/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/tobi/.gradle/caches/transforms-3/3f658df50de9879d4d1f626e4ff3fec4/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/tobi/.gradle/caches/transforms-3/3f658df50de9879d4d1f626e4ff3fec4/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/tobi/.gradle/caches/transforms-3/bb95d612b39e3e3b34d14f56d47def77/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/tobi/.gradle/caches/transforms-3/bb95d612b39e3e3b34d14f56d47def77/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/tobi/.gradle/caches/transforms-3/c79008f010bca65d6271552190cb0ac8/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/tobi/.gradle/caches/transforms-3/c79008f010bca65d6271552190cb0ac8/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore:1.0.0] /home/tobi/.gradle/caches/transforms-3/77f7afe0002b2e23666e0aef2e38d9a4/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/tobi/.gradle/caches/transforms-3/77f7afe0002b2e23666e0aef2e38d9a4/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/tobi/.gradle/caches/transforms-3/9fbb3a40286c1973681c074dbe591469/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/tobi/.gradle/caches/transforms-3/9fbb3a40286c1973681c074dbe591469/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tobi/.gradle/caches/transforms-3/e7f5ff16c0d460485c28474109849c40/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tobi/.gradle/caches/transforms-3/e7f5ff16c0d460485c28474109849c40/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tobi/.gradle/caches/transforms-3/09bce5f42824588619e63d13c96e4cee/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tobi/.gradle/caches/transforms-3/09bce5f42824588619e63d13c96e4cee/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/tobi/.gradle/caches/transforms-3/01b3e6317dabbfa5648c2efa8759f7b8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/tobi/.gradle/caches/transforms-3/01b3e6317dabbfa5648c2efa8759f7b8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tobi/.gradle/caches/transforms-3/ebd0c69232a8b9d91974dc60815b4e2f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tobi/.gradle/caches/transforms-3/ebd0c69232a8b9d91974dc60815b4e2f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tobi/.gradle/caches/transforms-3/90f3532180ccd2cca5c7202131affeee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tobi/.gradle/caches/transforms-3/90f3532180ccd2cca5c7202131affeee/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tobi/.gradle/caches/transforms-3/5b4d589165a8b6981740f3bfbbb2406f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tobi/.gradle/caches/transforms-3/5b4d589165a8b6981740f3bfbbb2406f/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/tobi/.gradle/caches/transforms-3/0920199fa84d3bbeb5dad39c9f4fed32/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/tobi/.gradle/caches/transforms-3/0920199fa84d3bbeb5dad39c9f4fed32/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tobi/.gradle/caches/transforms-3/481b1e80b364fc2c4027ee70a91bbd92/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tobi/.gradle/caches/transforms-3/481b1e80b364fc2c4027ee70a91bbd92/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tobi/.gradle/caches/transforms-3/97e9fe5bb9825bceef1951ea165fdd19/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tobi/.gradle/caches/transforms-3/97e9fe5bb9825bceef1951ea165fdd19/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tobi/.gradle/caches/transforms-3/aa8ecbfff32ec6095b3e096a14bb4053/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tobi/.gradle/caches/transforms-3/aa8ecbfff32ec6095b3e096a14bb4053/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.tom-roush:pdfbox-android:2.0.27.0] /home/tobi/.gradle/caches/transforms-3/c9e7a4bc4032c6783b803a584f994802/transformed/pdfbox-android-2.0.27.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tom-roush:pdfbox-android:2.0.27.0] /home/tobi/.gradle/caches/transforms-3/c9e7a4bc4032c6783b803a584f994802/transformed/pdfbox-android-2.0.27.0/AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tobi/Projects/mute/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tobi/.gradle/caches/transforms-3/ca353430a953af2e5e96c6b5430bc032/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/tobi/.gradle/caches/transforms-3/be9873abdedfa6072ff4782a22f738fa/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/tobi/.gradle/caches/transforms-3/89200a3ed5360ebf841d1e89d644a0f3/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.tobicodes.mute.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.tobicodes.mute.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/tobi/.gradle/caches/transforms-3/78bfe8c50dca4cdd68dc52f0753e542d/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/tobi/.gradle/caches/transforms-3/159b9818a58698fbd93f7622b2a5e084/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/tobi/.gradle/caches/transforms-3/107ddaad58d447832111f4fc9706bc48/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [com.github.adaptech-cz:Tesseract4Android:2.1.1] /home/tobi/.gradle/caches/transforms-3/75a592bb6369f560056356256d1d7040/transformed/Tesseract4Android-2.1.1/AndroidManifest.xml:11:22-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/tobi/.gradle/caches/transforms-3/806f58d54d5936449214cc118dd3f4d8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

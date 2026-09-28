@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mono_bg"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:id="@+id/root_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="22dp"
+        android:paddingBottom="20dp">
+
+        <!-- Compact greeting -->
+        <TextView
+            android:id="@+id/tv_greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good afternoon"
+            android:textColor="@color/mono_text"
+            android:textSize="19sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Shehab"
+            android:textColor="@color/mono_text2"
+            android:textSize="13sp"
+            android:layout_marginTop="3dp" />
+
+        <TextView
+            android:id="@+id/tv_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read. Listen. Offline."
+            android:textColor="@color/mono_muted"
+            android:textSize="11sp"
+            android:letterSpacing="0.05"
+            android:layout_marginTop="4dp" />
+
+        <!-- Current reading component -->
+        <LinearLayout
+            android:id="@+id/card_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_reader_card"
+            android:paddingHorizontal="18dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="12dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_file_text"
+                    app:tint="@color/mono_muted"
+                    android:contentDescription="Document type" />
+
+                <TextView
+                    android:id="@+id/tv_continue_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PDF"
+                    android:textColor="@color/mono_muted"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.14"
+                    android:layout_marginStart="7dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_continue_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1m ago"
+                    android:textColor="@color/mono_muted"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_continue_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সাহিত্য চিন্তা - শিবনারায়ণ রায়.pdf"
+                android:textColor="@color/mono_text"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="6dp"
+                android:layout_marginTop="13dp" />
+
+            <TextView
+                android:id="@+id/tv_continue_meta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Page 7 of 183 • 4%"
+                android:textColor="@color/mono_text2"
+                android:textSize="12sp"
+                android:layout_marginTop="7dp" />
+
+            <ProgressBar
+                android:id="@+id/progress_continue"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:progressDrawable="@drawable/progress_mono"
+                android:layout_marginTop="12dp" />
+
+            <!-- Integrated action -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginTop="6dp">
+
+                <TextView
+                    android:id="@+id/btn_continue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Continue Reading"
+                    android:textColor="@color/mono_text"
+                    android:textSize="13sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_action_tonal"
+                    android:drawableEnd="@drawable/ic_arrow_right"
+                    android:drawablePadding="8dp"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="9dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Compact inline stats -->
+        <LinearLayout
+            android:id="@+id/layout_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="18dp"
+            android:paddingHorizontal="4dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_nav_library"
+                app:tint="@color/mono_muted"
+                android:contentDescription="Library" />
+            <TextView
+                android:id="@+id/tv_stat_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/mono_text"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginStart="7dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In Library"
+                android:textColor="@color/mono_muted"
+                android:textSize="12sp"
+                android:layout_marginStart="6dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="14dp"
+                android:background="@color/mono_border"
+                android:layout_marginHorizontal="14dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_book_open"
+                app:tint="@color/mono_muted"
+                android:contentDescription="Reading" />
+            <TextView
+                android:id="@+id/tv_stat_reading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/mono_text"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginStart="7dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reading"
+                android:textColor="@color/mono_muted"
+                android:textSize="12sp"
+                android:layout_marginStart="6dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="14dp"
+                android:background="@color/mono_border"
+                android:layout_marginHorizontal="14dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_check"
+                app:tint="@color/mono_muted"
+                android:contentDescription="Finished" />
+            <TextView
+                android:id="@+id/tv_stat_finished"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/mono_text"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginStart="7dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Finished"
+                android:textColor="@color/mono_muted"
+                android:textSize="12sp"
+                android:layout_marginStart="6dp" />
+        </LinearLayout>
+
+        <!-- Empty state -->
+        <LinearLayout
+            android:id="@+id/empty_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingVertical="44dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_book_open"
+                app:tint="@color/mono_muted"
+                android:contentDescription="Empty library" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your library is empty"
+                android:textColor="@color/mono_text2"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/btn_add_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add your first book"
+                android:textColor="@color/mono_btn_fg"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:background="@drawable/bg_button_mono"
+                android:paddingHorizontal="18dp"
+                android:paddingVertical="11dp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+
+        <!-- Recent -->
+        <TextView
+            android:id="@+id/tv_recent_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECENT"
+            android:textColor="@color/mono_muted"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.16"
+            android:layout_marginTop="26dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_recent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginTop="8dp"
+            android:overScrollMode="never" />
+
+
+        <TextView
+            android:id="@+id/fragment_home_binding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_recent_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_stat_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_stat_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <!--AUTO_FILL-->
+    </LinearLayout>
+</ScrollView>
